@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: #ffffe3;
+    height: 100px;
+
+}
+body{
+    background-color: #0f645d
+}
+.logo-img{
+    mix-blend-mode: multiply;
+    width: 85px;
+    height: 85px;
+}
+header,.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    margin:0 10px;
+}
+.header-sub-menu{
+    display: none;
+}
+.btn{
+border: 1px solid #0f645d;
+background: none;
+padding: 8 14;
+font-size: 16;
+cursor: pointer;
+margin: 20px
+
+}
+
+
